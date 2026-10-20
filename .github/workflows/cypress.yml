@@ -2,9 +2,9 @@ name: CI Cypress
 
 on:
   push:
-    branches: ["alumno/sbarriosr"]
+    branches: ["main"]
   pull_request:
-    branches: ["dev"]
+    branches: ["main"]
 
 concurrency:
   group: ci-cypress-${{ github.ref }}
